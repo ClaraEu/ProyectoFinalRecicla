@@ -1,0 +1,43 @@
+.container-fluid{
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+}
+
+.proyecto{
+    padding:25px;
+    color: #444;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.promotores{
+   
+    margin:0px auto;
+    padding:25px;
+    color: #444;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Varela Round', sans-serif;
+}
+
+hr{
+   
+    margin-bottom: 30px;
+}
+
+p{
+    padding: 2%;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+    
+

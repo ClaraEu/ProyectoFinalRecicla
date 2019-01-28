@@ -1,0 +1,27 @@
+<nav class="cabeceropersonalizado navbar navbar-expand-lg">
+  <div class="mr-3"><img src="../../assets/images/logo.png"/></div>
+  <a class="navbar-brand" href="#">Recicla hoy</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!--<span class="navbar-toggler-icon">--</span>-->
+    <img class="navbar-toggler-icon" src="../../assets/images/iconmenu.png"/>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav pl-5 pr-3 text-right">
+      <li class="nav-item active">
+        <a class="nav-link pl-5" [routerLink]="['./home']" [routerLinkActive]="['activa']">INICIO <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pl-5" [routerLink]="['./open']" [routerLinkActive]="['activa']">¿JUGAMOS?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pl-5" [routerLink]="['./puntuacion']" [routerLinkActive]="['activa']">PUNTUACIÓN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pl-5" [routerLink]="['./proyecto']" [routerLinkActive]="['activa']">PROYECTO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pl-5" [routerLink]="['./registro']" [routerLinkActive]="['activa']">REGISTRATE</a>
+      </li>
+    </ul>
+  </div>
+</nav>

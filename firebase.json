@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/Proyecto-Recicla",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

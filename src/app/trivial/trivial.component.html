@@ -1,0 +1,41 @@
+    
+  <div class="container-fluid bosque">  
+    
+
+      <div class="row justify-content-around">
+        <div class="col-4 col-md-2 m-auto text-center text-white bg-warning rounded"><p>Puntuación: {{contPuntos}}</p></div>
+
+        
+      </div>
+
+      <div class="row justify-content-around my-4 bg">
+        <div class="col-12 text-center text-white my-5">
+          <h2>{{pregunta?.texto}}</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-around">
+        <div class="col-10 col-md-5 bg-success rounded text-center text-white p-3 mt-5 curs border-5" *ngFor="let preg of pregunta?.respuestas" (click)="handleClick($event)">
+          <p>{{preg}}</p>
+        </div>
+      </div>
+    
+    
+  </div>
+
+
+
+  <div *ngIf="mostrar" class="containerDos text-center">
+  
+    <p *ngIf="acierto">¡Enhorabuena! Has acertado.</p>
+    <p *ngIf="!acierto">¡Oh, que lastima! Te has equivocado</p>
+    
+    <button class="btn btn-primary-light boton mt-5" (click)="cerrarPantalla()">Continuar</button>
+  
+  </div>
+
+
+<div *ngIf="fin" class="containerDos text-center">
+    <p class="ml-5 mr-5">¡Fin!. Tu puntuación es de: {{contPuntos}} puntos.</p>
+    <button class="btn btn-primary-light boton mt-5" (click)="rutaOpen()">Regresar</button>
+</div>

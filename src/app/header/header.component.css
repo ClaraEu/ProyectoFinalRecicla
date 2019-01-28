@@ -1,0 +1,29 @@
+.cabeceropersonalizado{
+	background-color: #4FB99F;
+	color: white;
+	/*border-bottom:2px solid black;*/
+}
+
+.cabeceropersonalizado a{
+	background-color: #4FB99F;
+	color: white;
+}
+
+a{
+	transition: 1s;
+}
+
+.activa,a:hover{
+	color: #112F41 !important;
+}
+
+img{
+	max-width: 50px;
+	max-height: 50px;
+}
+
+
+
+
+
+

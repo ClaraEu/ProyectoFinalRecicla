@@ -1,0 +1,47 @@
+.container-fluid{
+    background-color: white;
+}
+
+.container{
+    background-color: white;
+}
+
+.bg-personal{
+    background-color: #112F41
+}
+
+h3{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.presentacion{
+    /*padding-left:20%;
+    padding-right: 20%;*/
+
+}
+
+/*.carta{
+    float:left;
+    padding:30px;
+    text-align: center;
+}*/
+
+.sombra:hover img{
+    opacity: 0.6;
+    transition:1s; 
+}
+
+/*.row:after{
+    clear: both;
+}*/
+
+/*img{
+    border-radius: 10px;
+}*/
+
+a{
+    text-decoration: none;
+}
+
+
